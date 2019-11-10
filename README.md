@@ -1,12 +1,12 @@
-# AvraZoo
+# Avratech-ng-zoo
 
 Zoo project
 
-## zoo project supposed to show 3 types of animal groups 
+## Zoo project supposed to show 3 types of animal groups 
 
-for example birds, livestock, wild animals
+For example birds, livestock, wild animals
 
-### components list
+### Components list
 
 * header
 * nav
@@ -19,7 +19,7 @@ for example birds, livestock, wild animals
 * paginator
 * footer 
 
-### services list
+### Services list
 
 * ajax service
 * livestock service
