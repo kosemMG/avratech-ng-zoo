@@ -23,5 +23,6 @@ For example birds, livestock, wild animals
 
 * ajax service
 * livestock service
-* bird service
+* birds service
 * wild service
+* paging service
