@@ -1,1 +1,12 @@
-<p>birds-card works!</p>
+<div>
+  <h4>{{ birdsService.currentBird.name }}</h4>
+  <p>Lifespan: {{ birdsService.currentBird.lifespan }}</p>
+  <p>Flight speed: {{ birdsService.currentBird.speed }} km/h</p>
+  <p>Weight: {{ birdsService.currentBird.weight }}</p>
+  <p>Clutch size: {{ birdsService.currentBird.clutchSize }}</p>
+  <p>Distribution: {{ birdsService.currentBird.distribution }}</p>
+  <img
+    [src]="birdsService.currentBird.src"
+    [alt]="birdsService.currentBird.name"
+  />
+</div>

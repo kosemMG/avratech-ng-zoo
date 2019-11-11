@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PagingService} from './services/paging.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'avratech-ng-zoo';
+
+  constructor(private pagingService: PagingService) {
+    console.log('AppComponent constructor()');
+  }
+
+  changePanel() {
+    switch (this.pagingService.currentPanel) {
+      case 'birds':
+        break;
+      case 'livestock':
+        break;
+      case 'wild-animals':
+        break;
+    }
+  }
 }

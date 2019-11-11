@@ -1,7 +1,6 @@
 export class AnimalModel {
   name: string;
-  lifespan: number;
-  size: string;
+  lifespan: string;
   weight: string;
   distribution: string;
   src: string;

@@ -1,0 +1,14 @@
+.arrow {
+  font-size: 100px;
+  font-weight: bold;
+  padding: 0 30px;
+}
+
+a {
+  color: #17a2b8;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
