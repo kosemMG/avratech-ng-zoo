@@ -4,10 +4,10 @@
   <div class="col-md-5">
     <h4>The wild animals list</h4>
     <ul>
-      <li *ngFor="let animal of wildService.wildAnimalsList">
+      <li *ngFor="let animal of wildService.list">
         <a href="#" (click)="navigateTo(animal)">{{ animal.name }}</a>
       </li>
     </ul>
   </div>
-  <app-birds-card class="col-md-7"></app-birds-card>
+  <app-wild-animals-card class="col-md-7"></app-wild-animals-card>
 </div>

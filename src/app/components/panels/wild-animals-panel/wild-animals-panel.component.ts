@@ -15,8 +15,8 @@ export class WildAnimalsPanelComponent {
   }
 
   navigateTo(animal: WildModel) {
-    console.log('WildAnimalsPanelComponent navigateTo() | event:', animal);
-    this.wildService.currentWildAnimal = animal;
+    console.log('WildAnimalsPanelComponent navigateTo() | animal:', animal);
+    this.wildService.currentAnimal = animal;
+    this.wildService.currentIndex = this.wildService.list.indexOf(animal);
   }
-
 }

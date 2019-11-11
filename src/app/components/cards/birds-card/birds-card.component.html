@@ -1,12 +1,12 @@
 <div>
-  <h4>{{ birdsService.currentBird.name }}</h4>
-  <p>Lifespan: {{ birdsService.currentBird.lifespan }}</p>
-  <p>Flight speed: {{ birdsService.currentBird.speed }} km/h</p>
-  <p>Weight: {{ birdsService.currentBird.weight }}</p>
-  <p>Clutch size: {{ birdsService.currentBird.clutchSize }}</p>
-  <p>Distribution: {{ birdsService.currentBird.distribution }}</p>
+  <h4>{{ birdsService.currentAnimal.name }}</h4>
+  <p>Lifespan: {{ birdsService.currentAnimal.lifespan }}</p>
+  <p>Flight speed: {{ birdsService.currentAnimal.speed }} km/h</p>
+  <p>Weight: {{ birdsService.currentAnimal.weight }}</p>
+  <p>Clutch size: {{ birdsService.currentAnimal.clutchSize }}</p>
+  <p>Distribution: {{ birdsService.currentAnimal.distribution }}</p>
   <img
-    [src]="birdsService.currentBird.src"
-    [alt]="birdsService.currentBird.name"
+    [src]="birdsService.currentAnimal.src"
+    [alt]="birdsService.currentAnimal.name"
   />
 </div>

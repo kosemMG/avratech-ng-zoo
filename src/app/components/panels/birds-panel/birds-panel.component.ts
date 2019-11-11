@@ -15,6 +15,7 @@ export class BirdsPanelComponent {
 
   navigateTo(bird: BirdModel) {
     console.log('BirdsPanelComponent navigateTo() | bird:', bird);
-    this.birdsService.currentBird = bird;
+    this.birdsService.currentAnimal = bird;
+    this.birdsService.currentIndex = this.birdsService.list.indexOf(bird);
   }
 }

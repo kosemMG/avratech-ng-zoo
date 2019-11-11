@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {LivestockService} from '../../../services/livestock.service';
-import {BirdModel} from '../../../models/BirdModel';
 import {LivestockModel} from '../../../models/LivestockModel';
 
 @Component({
@@ -17,5 +16,6 @@ export class LivestockPanelComponent {
   navigateTo(animal: LivestockModel) {
     console.log('LivestockPanelComponent navigateTo() | animal:', animal);
     this.livestockService.currentAnimal = animal;
+    this.livestockService.currentIndex = this.livestockService.list.indexOf(animal);
   }
 }

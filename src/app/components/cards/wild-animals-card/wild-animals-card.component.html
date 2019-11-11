@@ -1,10 +1,12 @@
 <div>
-  <h4>{{ wildService.currentWildAnimal.name }}</h4>
-  <p>Lifespan: {{ wildService.currentWildAnimal.lifespan }}</p>
-  <p>Weight: {{ wildService.currentWildAnimal.weight }}</p>
-  <p>Distribution: {{ wildService.currentWildAnimal.distribution }}</p>
+  <h4>{{ wildService.currentAnimal.name }}</h4>
+  <p>Speed: {{ wildService.currentAnimal.speed }}</p>
+  <p>Lifespan: {{ wildService.currentAnimal.lifespan }}</p>
+  <p>Weight: {{ wildService.currentAnimal.weight }}</p>
+  <p>Gestation period: {{ wildService.currentAnimal.gestationPeriod }}</p>
+  <p>Distribution: {{ wildService.currentAnimal.distribution }}</p>
   <img
-    [src]="wildService.currentWildAnimal.src"
-    [alt]="wildService.currentWildAnimal.name"
+    [src]="wildService.currentAnimal.src"
+    [alt]="wildService.currentAnimal.name"
   />
 </div>

@@ -4,10 +4,10 @@
   <div class="col-md-5">
     <h4>The livestock list</h4>
     <ul>
-      <li *ngFor="let animal of livestockService.livestockList">
+      <li *ngFor="let animal of livestockService.list">
         <a href="#" (click)="navigateTo(animal)">{{ animal.name }}</a>
       </li>
     </ul>
   </div>
-  <app-birds-card class="col-md-7"></app-birds-card>
+  <app-livestock-card class="col-md-7"></app-livestock-card>
 </div>
