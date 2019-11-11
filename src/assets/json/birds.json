@@ -4,7 +4,7 @@
     "lifespan": "3 years",
     "speed": 46,
     "weight": "30g",
-    "clutch-size": "4-5",
+    "clutchSize": "4-5",
     "distribution": "Most of Eurasia, North and Central America, and parts of North Africa.",
     "src": "https://www.audubon.org/sites/default/files/styles/grid_gallery_lightbox/public/House_Sparrow_s52-12-123_l_1.jpg?itok=4qANlVqB"
   },
@@ -13,7 +13,7 @@
     "lifespan": "4-12 years",
     "speed": 22,
     "weight": " 360–563g",
-    "clutch-size": "4-6",
+    "clutchSize": "4-6",
     "distribution": "Most of the world except for Australasia, Madagascar, and Antarctica.",
     "src": "https://www.outdooralabama.com/sites/default/files/Wildlife/Birds/Woodpeckers/RedBellyMale_JeffDrake.JPG"
   },
@@ -22,7 +22,7 @@
     "lifespan": "10-15 years",
     "speed": 50,
     "weight": "0.69 – 2kg",
-    "clutch-size": "3-7",
+    "clutchSize": "3-7",
     "distribution": "North America, Europe, Asia, and North Africa",
     "src": "https://download.ams.birds.cornell.edu/api/v1/asset/63739491/1800"
   }
