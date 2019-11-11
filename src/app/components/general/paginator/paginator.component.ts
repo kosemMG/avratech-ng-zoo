@@ -1,20 +1,19 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-paginator',
   templateUrl: './paginator.component.html',
   styleUrls: ['./paginator.component.css']
 })
-export class PaginatorComponent implements OnInit {
+export class PaginatorComponent{
   @Output() itemMoved = new EventEmitter<number>();
 
   constructor() {
     console.log('PaginatorComponent constructor()');
   }
 
-  ngOnInit() {
+  changeItem(direction: number) {
+    console.log('PaginatorComponent changeItem() | direction:', direction);
+    this.itemMoved.emit(direction);
   }
-
-
-
 }

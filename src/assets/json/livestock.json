@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Cattle",
+    "lifespan": "18 – 22 years",
+    "gestationPeriod": "283 days",
+    "weight": "male: 1,100 kg, female: 720 kg",
+    "distribution": "Everywhere in the world except for Antarctica.",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg"
+  },
+  {
+    "name": "Goat",
+    "lifespan": "15 – 18 years",
+    "gestationPeriod": "150 days",
+    "weight": " 20 – 140 kg",
+    "distribution": "Everywhere in the world except for Antarctica.",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/1024px-Hausziege_04.jpg"
+  },
+  {
+    "name": "Sheep",
+    "lifespan": "10 – 12 years",
+    "gestationPeriod": "152 days",
+    "weight": " 20 – 140 kg",
+    "distribution": "Everywhere in the world except for Antarctica.",
+    "src": "https://icdn2.digitaltrends.com/image/digitaltrends/chimera-majestic-sheep-tongue.jpg"
+  }
+]

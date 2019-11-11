@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {LivestockService} from '../../../services/livestock.service';
+import {BirdModel} from '../../../models/BirdModel';
+import {LivestockModel} from '../../../models/LivestockModel';
 
 @Component({
   selector: 'app-livestock-panel',
   templateUrl: './livestock-panel.component.html',
-  styles: []
+  styleUrls: ['./livestock-panel.component.css']
 })
-export class LivestockPanelComponent implements OnInit {
+export class LivestockPanelComponent {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private livestockService: LivestockService) {
+    console.log('LivestockPanelComponent constructor()');
   }
 
+  navigateTo(animal: LivestockModel) {
+    console.log('LivestockPanelComponent navigateTo() | animal:', animal);
+    this.livestockService.currentAnimal = animal;
+  }
 }

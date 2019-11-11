@@ -1,13 +1,13 @@
 <h2>Welcome to the Birds observatory</h2>
 
-<div class="d-flex justify-content-between">
-  <div>
+<div class="row">
+  <div class="col-md-5">
     <h4>The birds list</h4>
     <ul>
-      <li *ngFor="let bird of birdsService.birdsList"> {{ bird.name }} </li>
+      <li *ngFor="let bird of birdsService.birdsList">
+        <a href="#" (click)="navigateTo(bird)">{{ bird.name }}</a>
+      </li>
     </ul>
   </div>
-  <div>
-    <app-birds-card></app-birds-card>
-  </div>
+    <app-birds-card class="col-md-7"></app-birds-card>
 </div>

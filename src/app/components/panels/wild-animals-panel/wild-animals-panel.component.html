@@ -1,1 +1,13 @@
-<p>wild-animals-panel works!</p>
+<h2>Welcome to the Wild Animals observatory</h2>
+
+<div class="row">
+  <div class="col-md-5">
+    <h4>The wild animals list</h4>
+    <ul>
+      <li *ngFor="let animal of wildService.wildAnimalsList">
+        <a href="#" (click)="navigateTo(animal)">{{ animal.name }}</a>
+      </li>
+    </ul>
+  </div>
+  <app-birds-card class="col-md-7"></app-birds-card>
+</div>

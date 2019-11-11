@@ -1,1 +1,10 @@
-<p>wild-animals-card works!</p>
+<div>
+  <h4>{{ wildService.currentWildAnimal.name }}</h4>
+  <p>Lifespan: {{ wildService.currentWildAnimal.lifespan }}</p>
+  <p>Weight: {{ wildService.currentWildAnimal.weight }}</p>
+  <p>Distribution: {{ wildService.currentWildAnimal.distribution }}</p>
+  <img
+    [src]="wildService.currentWildAnimal.src"
+    [alt]="wildService.currentWildAnimal.name"
+  />
+</div>

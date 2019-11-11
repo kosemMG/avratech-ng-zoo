@@ -5,8 +5,8 @@
   <app-birds-panel *ngIf="pagingService.currentPanel === 'birds'"></app-birds-panel>
   <app-livestock-panel *ngIf="pagingService.currentPanel === 'livestock'"></app-livestock-panel>
   <app-wild-animals-panel *ngIf="pagingService.currentPanel === 'wild-animals'"></app-wild-animals-panel>
-  <app-paginator></app-paginator>
-  <footer class="fixed-bottom container">
+  <app-paginator (itemMoved)="switchItem($event)"></app-paginator>
+  <footer class="align-bottom container">
     <app-footer></app-footer>
   </footer>
 </div>

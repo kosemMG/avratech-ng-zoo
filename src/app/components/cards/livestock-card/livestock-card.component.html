@@ -1,1 +1,10 @@
-<p>livestock-card works!</p>
+<div>
+  <h4>{{ livestockService.currentAnimal.name }}</h4>
+  <p>Lifespan: {{ livestockService.currentAnimal.lifespan }}</p>
+  <p>Weight: {{ livestockService.currentAnimal.weight }}</p>
+  <p>Distribution: {{ livestockService.currentAnimal.distribution }}</p>
+  <img
+    [src]="livestockService.currentAnimal.src"
+    [alt]="livestockService.currentAnimal.name"
+  />
+</div>
