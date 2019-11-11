@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Lion",
+    "lifespan": "10 – 14 years",
+    "speed": "80 km/h",
+    "gestationPeriod": "110 days",
+    "weight": "male: 190 kg, female: 130 kg",
+    "distribution": "Sub-Saharan Africa",
+    "src": "http://www.krugerpark.co.za/images/1-lion-charge-gc590a.jpg"
+  },
+  {
+    "name": "Elephant",
+    "lifespan": "10 – 14 years",
+    "speed": "40 km/h",
+    "gestationPeriod": " African bush elephant: 22 months, Asian elephant: 18 – 22 months",
+    "weight": " African bush elephant: 6,000 kg, Asian elephant: 5,400 kg, African forest elephant: 2,700 kg",
+    "distribution": "Sub-Saharan Africa, South Asia, and Southeast Asia",
+    "src": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1194,w_2127,x_0,y_39/f_auto,q_auto,w_1100/v1565404115/shape/mentalfloss/86712-gettyimages-1067020092.jpg"
+  },
+  {
+    "name": "Kangaroo",
+    "lifespan": "6 years",
+    "speed": "70 km/h",
+    "gestationPeriod": "31-37 days",
+    "weight": "Red kangaroo: 28 kg, Eastern grey kangaroo: 50 – 66 kg",
+    "distribution": "Australia",
+    "src": "https://cdn.vox-cdn.com/thumbor/m3Bf1OCbMaR76bfYY3Ez6KerM6M=/0x0:3000x2000/1200x800/filters:focal(0x0:3000x2000)/cdn.vox-cdn.com/uploads/chorus_image/image/49468403/GettyImages-512657552.0.jpg"
+  }
+]
