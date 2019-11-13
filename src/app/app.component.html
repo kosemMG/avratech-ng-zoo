@@ -2,9 +2,10 @@
   <header>
     <app-header></app-header>
   </header>
-  <app-birds-panel *ngIf="pagingService.currentPanel === 'birds'"></app-birds-panel>
-  <app-livestock-panel *ngIf="pagingService.currentPanel === 'livestock'"></app-livestock-panel>
-  <app-wild-animals-panel *ngIf="pagingService.currentPanel === 'wild-animals'"></app-wild-animals-panel>
+  <router-outlet></router-outlet>
+<!--  <app-birds-panel *ngIf="pagingService.currentPanel === 'birds'"></app-birds-panel>-->
+<!--  <app-livestock-panel *ngIf="pagingService.currentPanel === 'livestock'"></app-livestock-panel>-->
+<!--  <app-wild-animals-panel *ngIf="pagingService.currentPanel === 'wild-animals'"></app-wild-animals-panel>-->
   <app-paginator (itemMoved)="switchItem($event)"></app-paginator>
   <footer class="align-bottom container">
     <app-footer></app-footer>

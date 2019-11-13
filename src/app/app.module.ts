@@ -1,6 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/general/header/header.component';
@@ -13,6 +14,12 @@ import { BirdsCardComponent } from './components/cards/birds-card/birds-card.com
 import { LivestockCardComponent } from './components/cards/livestock-card/livestock-card.component';
 import { FooterComponent } from './components/general/footer/footer.component';
 import { PaginatorComponent } from './components/general/paginator/paginator.component';
+
+const appRoutes: Routes = [
+  {path: '', component: BirdsPanelComponent},
+  {path: 'livestock', component: LivestockPanelComponent},
+  {path: 'wild', component: WildAnimalsPanelComponent}
+];
 
 @NgModule({
   declarations: [
@@ -29,7 +36,9 @@ import { PaginatorComponent } from './components/general/paginator/paginator.com
     PaginatorComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule
+    BrowserModule,
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
