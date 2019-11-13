@@ -11,11 +11,14 @@ export class NavigationComponent implements OnInit {
   constructor(private pagingService: PagingService) {
     console.log('NavigationComponent constructor()');
   }
+  // constructor() {
+  //   console.log('NavigationComponent constructor()');
+  // }
 
   ngOnInit() {
   }
 
-  onNavigateTo(feature: string) {
-    this.pagingService.currentPanel = feature;
-  }
+  // onNavigateTo(feature: string) {
+  //   this.pagingService.currentPanel = feature;
+  // }
 }

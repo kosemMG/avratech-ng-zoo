@@ -4,11 +4,21 @@
   padding: 0 30px;
 }
 
-a {
+/*a {
   color: #17a2b8;
 }
 
 a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}*/
+
+span {
+  color: #17a2b8;
+  cursor: pointer;
+}
+
+span:hover {
   text-decoration: none;
   opacity: 0.5;
 }

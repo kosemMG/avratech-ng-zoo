@@ -14,9 +14,11 @@ import { BirdsCardComponent } from './components/cards/birds-card/birds-card.com
 import { LivestockCardComponent } from './components/cards/livestock-card/livestock-card.component';
 import { FooterComponent } from './components/general/footer/footer.component';
 import { PaginatorComponent } from './components/general/paginator/paginator.component';
+import { HomeComponent } from './components/general/home/home.component';
 
 const appRoutes: Routes = [
-  {path: '', component: BirdsPanelComponent},
+  {path: '', component: HomeComponent},
+  {path: 'birds', component: BirdsPanelComponent},
   {path: 'livestock', component: LivestockPanelComponent},
   {path: 'wild', component: WildAnimalsPanelComponent}
 ];
@@ -33,7 +35,8 @@ const appRoutes: Routes = [
     BirdsCardComponent,
     LivestockCardComponent,
     FooterComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

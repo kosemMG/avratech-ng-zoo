@@ -1,7 +1,33 @@
+<!--<div>-->
+<!--  <ul class="nav nav-tabs menu">-->
+<!--    <li><a href="#" (click)="onNavigateTo('birds')">Birds</a></li>-->
+<!--    <li><a href="#" (click)="onNavigateTo('livestock')">Livestock</a></li>-->
+<!--    <li><a href="#" (click)="onNavigateTo('wild-animals')">Wild animals</a></li>-->
+<!--  </ul>-->
+<!--</div>-->
 <div>
-  <ul class="d-flex menu">
-    <li><a href="#" (click)=" onNavigateTo('birds')">Birds</a></li>
-    <li><a href="#" (click)=" onNavigateTo('livestock')">Livestock</a></li>
-    <li><a href="#" (click)=" onNavigateTo('wild-animals')">Wild animals</a></li>
+  <ul class="nav nav-tabs menu">
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="{exact: true}"
+        routerLink="/birds"
+      >Birds</a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active-link"
+        routerLink="/livestock"
+      >Livestock</a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        routerLinkActive="active-link"
+        routerLink="/wild"
+      >Wild animals</a>
+    </li>
   </ul>
 </div>
