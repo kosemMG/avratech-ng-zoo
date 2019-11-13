@@ -1,23 +1,16 @@
-import {Component, OnInit, Output} from '@angular/core';
+import {Component} from '@angular/core';
 import {BirdsService} from '../../../services/birds.service';
 import {BirdModel} from '../../../models/BirdModel';
-import {PagingService} from '../../../services/paging.service';
 
 @Component({
   selector: 'app-birds-panel',
   templateUrl: './birds-panel.component.html',
   styleUrls: ['./birds-panel.component.css']
 })
-export class BirdsPanelComponent implements OnInit {
-  panel = 'birds';
+export class BirdsPanelComponent {
 
-  constructor(private birdsService: BirdsService,
-              private pagingService: PagingService) {
+  constructor(private birdsService: BirdsService) {
     console.log('BirdsPanelComponent constructor()');
-  }
-
-  ngOnInit(): void {
-    this.pagingService.currentPanel = this.panel;
   }
 
   navigateTo(bird: BirdModel) {

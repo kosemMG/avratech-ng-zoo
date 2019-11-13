@@ -4,8 +4,11 @@
   <div class="col-md-5">
     <h4>The wild animals list</h4>
     <ul>
-      <li *ngFor="let animal of wildService.list">
-        <a href="#" (click)="navigateTo(animal)">{{ animal.name }}</a>
+      <li
+        class="list-group-item list-group-item-action wild-choice"
+        (click)="navigateTo(animal)"
+        *ngFor="let animal of wildService.list">
+        <span>{{ animal.name }}</span>
       </li>
     </ul>
   </div>

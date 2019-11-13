@@ -1,9 +1,8 @@
 import {Component} from '@angular/core';
-import {PagingService} from './services/paging.service';
+
 import {BirdsService} from './services/birds.service';
 import {LivestockService} from './services/livestock.service';
 import {WildAnimalsService} from './services/wild-animals.service';
-import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -14,20 +13,14 @@ export class AppComponent {
   title = 'avratech-zoo';
   url: string;
 
-  constructor(private pagingService: PagingService,
-              private birdsService: BirdsService,
+  constructor(private birdsService: BirdsService,
               private livestockService: LivestockService,
-              private wildService: WildAnimalsService,
-              private route: ActivatedRoute,
-              private router: Router) {
+              private wildService: WildAnimalsService) {
     console.log('AppComponent constructor()');
   }
 
   switchItem(direction: number) {
-    console.log('AppComponent switchItem() | direction:', direction, 'case:', this.pagingService.currentPanel);
-    // switch (this.pagingService.currentPanel) {
     this.url = window.location.pathname;
-    console.log('url:', this.url);
     switch (this.url) {
       case '':
         break;
