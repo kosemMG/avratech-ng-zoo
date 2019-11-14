@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/general/header/header.component';
@@ -15,13 +14,9 @@ import { LivestockCardComponent } from './components/cards/livestock-card/livest
 import { FooterComponent } from './components/general/footer/footer.component';
 import { PaginatorComponent } from './components/general/paginator/paginator.component';
 import { HomeComponent } from './components/general/home/home.component';
+import { PageNotFoundComponent } from './components/general/page-not-found/page-not-found.component';
+import { AppRoutingModule } from './app-routing.module';
 
-const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'birds', component: BirdsPanelComponent},
-  {path: 'livestock', component: LivestockPanelComponent},
-  {path: 'wild', component: WildAnimalsPanelComponent}
-];
 
 @NgModule({
   declarations: [
@@ -36,12 +31,13 @@ const appRoutes: Routes = [
     LivestockCardComponent,
     FooterComponent,
     PaginatorComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
