@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "House sparrow",
     "lifespan": "3 years",
     "speed": 46,
@@ -9,6 +10,7 @@
     "src": "https://www.audubon.org/sites/default/files/styles/grid_gallery_lightbox/public/House_Sparrow_s52-12-123_l_1.jpg?itok=4qANlVqB"
   },
   {
+    "id": 2,
     "name": "Woodpecker",
     "lifespan": "4-12 years",
     "speed": 22,
@@ -18,6 +20,7 @@
     "src": "https://www.outdooralabama.com/sites/default/files/Wildlife/Birds/Woodpeckers/RedBellyMale_JeffDrake.JPG"
   },
   {
+    "id": 3,
     "name": "Common raven",
     "lifespan": "10-15 years",
     "speed": 50,
