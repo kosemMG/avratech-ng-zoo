@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Lion",
     "lifespan": "10 – 14 years",
     "speed": "80 km/h",
@@ -9,6 +10,7 @@
     "src": "http://www.krugerpark.co.za/images/1-lion-charge-gc590a.jpg"
   },
   {
+    "id": 2,
     "name": "Elephant",
     "lifespan": "10 – 14 years",
     "speed": "40 km/h",
@@ -18,6 +20,7 @@
     "src": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1194,w_2127,x_0,y_39/f_auto,q_auto,w_1100/v1565404115/shape/mentalfloss/86712-gettyimages-1067020092.jpg"
   },
   {
+    "id": 3,
     "name": "Kangaroo",
     "lifespan": "6 years",
     "speed": "70 km/h",
