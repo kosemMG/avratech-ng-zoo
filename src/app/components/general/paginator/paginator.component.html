@@ -1,4 +1,6 @@
 <div class="d-flex justify-content-center paginator">
-  <span [routerLink]="[url, ]" class="arrow" (click)="changeItem(-1)">&#60;</span>
-  <span class="arrow" (click)="changeItem(1)">&#62;</span>
+  <a class="arrow" [routerLink]="[path, id === 1 ? currentAnimalsArrayLength : id - 1]">&#60;</a>
+  <a class="arrow" [routerLink]="[path, id === currentAnimalsArrayLength ? 1 : id + 1]">&#62;</a>
 </div>
+<!--(click)="changeItem(-1)"-->
+<!--(click)="changeItem(1)"-->

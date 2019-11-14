@@ -6,3 +6,7 @@ h2 {
 .bird-choice {
   cursor: pointer;
 }
+
+ul {
+  padding-bottom: 30px;
+}

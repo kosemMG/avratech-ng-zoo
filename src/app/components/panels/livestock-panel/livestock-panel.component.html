@@ -1,16 +1,19 @@
 <h2>Welcome to the Livestock observatory</h2>
-
 <div class="row">
   <div class="col-md-5">
     <h4>The livestock list</h4>
     <ul>
       <li
         class="list-group-item list-group-item-action livestock-choice"
-        (click)="navigateTo(animal)"
-        *ngFor="let animal of livestockService.list">
+        *ngFor="let animal of livestockService.list"
+        [routerLink]="['/livestock', animal.id]">
+        <!--        (click)="navigateTo(animal)"-->
         <span>{{ animal.name }}</span>
       </li>
     </ul>
   </div>
-  <app-livestock-card class="col-md-7"></app-livestock-card>
+  <div class="col-md-7">
+    <router-outlet></router-outlet>
+  </div>
+<!--  <app-livestock-card class="col-md-7"></app-livestock-card>-->
 </div>

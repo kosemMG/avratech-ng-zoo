@@ -13,7 +13,7 @@ const appRoutes: Routes = [
   {path: 'birds', component: BirdsPanelComponent, children: [
       {path: ':id', component: BirdsCardComponent}
     ]},
-  {path: '', redirectTo: 'birds', pathMatch: 'full'},
+  {path: '', redirectTo: 'birds/1', pathMatch: 'full'},
   {path: 'livestock', component: LivestockPanelComponent, children: [
       {path: ':id', component: LivestockCardComponent}
     ]},

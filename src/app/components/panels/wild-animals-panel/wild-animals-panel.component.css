@@ -6,3 +6,7 @@ h2 {
 .wild-choice {
   cursor: pointer;
 }
+
+ul {
+  padding-bottom: 30px;
+}

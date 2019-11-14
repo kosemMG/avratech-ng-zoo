@@ -13,9 +13,9 @@ export class BirdsPanelComponent {
     console.log('BirdsPanelComponent constructor()');
   }
 
-  navigateTo(bird: BirdModel) {
-    console.log('BirdsPanelComponent navigateTo() | bird:', bird);
-    this.birdsService.currentAnimal = bird;
-    this.birdsService.currentIndex = this.birdsService.list.indexOf(bird);
-  }
+  // navigateTo(bird: BirdModel) {
+  //   console.log('BirdsPanelComponent navigateTo() | bird:', bird);
+  //   this.birdsService.currentAnimal = bird;
+  //   this.birdsService.currentIndex = this.birdsService.list.indexOf(bird);
+  // }
 }

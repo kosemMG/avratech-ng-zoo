@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {BirdsService} from '../../../services/birds.service';
 import {ActivatedRoute} from '@angular/router';
 
@@ -25,7 +25,6 @@ export class BirdsCardComponent implements OnInit {
   }
 
   private getBird() {
-    console.log('BirdCardComponent private getBird()');
     const birdId = +this.route.snapshot.params.id;
     for (const bird of this.birdsService.list) {
       if (bird.id === birdId) {
