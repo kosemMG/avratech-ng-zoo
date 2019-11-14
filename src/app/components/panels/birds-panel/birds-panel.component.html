@@ -6,11 +6,15 @@
     <ul class="list-group">
       <li
         class="list-group-item list-group-item-action bird-choice"
-        (click)="navigateTo(bird)"
-        *ngFor="let bird of birdsService.list">
+        *ngFor="let bird of birdsService.list"
+        [routerLink]="['/birds', bird.id]">
+<!--        (click)="navigateTo(bird)"-->
         <span>{{ bird.name }}</span>
       </li>
     </ul>
   </div>
-    <app-birds-card class="col-md-7"></app-birds-card>
+  <div class="col-md-7">
+    <router-outlet></router-outlet>
+  </div>
+<!--    <app-birds-card class="col-md-7"></app-birds-card>-->
 </div>

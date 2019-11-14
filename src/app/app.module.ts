@@ -13,7 +13,6 @@ import { BirdsCardComponent } from './components/cards/birds-card/birds-card.com
 import { LivestockCardComponent } from './components/cards/livestock-card/livestock-card.component';
 import { FooterComponent } from './components/general/footer/footer.component';
 import { PaginatorComponent } from './components/general/paginator/paginator.component';
-import { HomeComponent } from './components/general/home/home.component';
 import { PageNotFoundComponent } from './components/general/page-not-found/page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -31,7 +30,6 @@ import { AppRoutingModule } from './app-routing.module';
     LivestockCardComponent,
     FooterComponent,
     PaginatorComponent,
-    HomeComponent,
     PageNotFoundComponent
   ],
   imports: [
