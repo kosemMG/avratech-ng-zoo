@@ -1001,7 +1001,7 @@
                 };
                 PaginatorComponent.prototype.getPanel = function () {
                     var path = window.location.pathname;
-                    return path.split('/')[1];
+                    return path.split('/')[2];
                 };
                 return PaginatorComponent;
             }());

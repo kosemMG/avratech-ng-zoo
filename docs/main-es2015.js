@@ -1048,7 +1048,7 @@ let PaginatorComponent = class PaginatorComponent {
     }
     getPanel() {
         const path = window.location.pathname;
-        return path.split('/')[1];
+        return path.split('/')[2];
     }
 };
 PaginatorComponent.ctorParameters = () => [
