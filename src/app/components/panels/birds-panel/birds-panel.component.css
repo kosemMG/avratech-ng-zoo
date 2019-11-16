@@ -10,3 +10,7 @@ h2 {
 ul {
   padding-bottom: 30px;
 }
+
+.active-bg {
+  background-color: #17a2b8;
+}

@@ -6,7 +6,8 @@
       <li
         class="list-group-item list-group-item-action livestock-choice"
         *ngFor="let animal of livestockService.list"
-        [routerLink]="['/livestock', animal.id]">
+        [routerLink]="['/livestock', animal.id]"
+        routerLinkActive="active active-bg">
         <!--        (click)="navigateTo(animal)"-->
         <span>{{ animal.name }}</span>
       </li>

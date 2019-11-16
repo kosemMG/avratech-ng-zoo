@@ -11,14 +11,17 @@ import {WildAnimalsCardComponent} from './components/cards/wild-animals-card/wil
 
 const appRoutes: Routes = [
   {path: 'birds', component: BirdsPanelComponent, children: [
-      {path: ':id', component: BirdsCardComponent}
+      {path: ':id', component: BirdsCardComponent},
+      {path: '', redirectTo: '/birds/1', pathMatch: 'full'}
     ]},
   {path: '', redirectTo: 'birds/1', pathMatch: 'full'},
   {path: 'livestock', component: LivestockPanelComponent, children: [
-      {path: ':id', component: LivestockCardComponent}
+      {path: ':id', component: LivestockCardComponent},
+      {path: '', redirectTo: '/livestock/1', pathMatch: 'full'}
     ]},
   {path: 'wild', component: WildAnimalsPanelComponent, children: [
-      {path: ':id', component: WildAnimalsCardComponent}
+      {path: ':id', component: WildAnimalsCardComponent},
+      {path: '', redirectTo: '/wild/1', pathMatch: 'full'}
     ]},
   {path: 'not-found', component: PageNotFoundComponent},
   {path: '**', redirectTo: 'not-found'}
