@@ -304,8 +304,8 @@
           \**********************************************************************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            __webpack_require__(/*! /home/moshe/Dropbox/programming/avratech/avratech-ng-zoo/src/styles.css */ "./src/styles.css");
-            module.exports = __webpack_require__(/*! /home/moshe/Dropbox/programming/avratech/avratech-ng-zoo/node_modules/bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+            __webpack_require__(/*! C:\Users\stu.RAVTECH\Documents\moshe\avratech-ng-zoo\src\styles.css */ "./src/styles.css");
+            module.exports = __webpack_require__(/*! C:\Users\stu.RAVTECH\Documents\moshe\avratech-ng-zoo\node_modules\bootstrap\dist\css\bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
             /***/ 
         })
     }, [[3, "runtime"]]]);

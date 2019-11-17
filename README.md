@@ -1,6 +1,6 @@
 # Avratech-ng-zoo
 
-Zoo project
+[Zoo-app](https://kosemmg.github.io/avratech-ng-zoo/)
 
 ## Zoo project supposed to show 3 types of animal groups 
 
@@ -9,7 +9,7 @@ For example birds, livestock, wild animals
 ### Components list
 
 * header
-* nav
+* navigation
 * livestock-panel
 * livestock-card
 * birds-panel

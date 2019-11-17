@@ -28,7 +28,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n  <header>\n    <app-header></app-header>\n  </header>\n  <router-outlet></router-outlet>\n<!--  <app-birds-panel *ngIf=\"pagingService.currentPanel === 'birds'\"></app-birds-panel>-->\n<!--  <app-livestock-panel *ngIf=\"pagingService.currentPanel === 'livestock'\"></app-livestock-panel>-->\n<!--  <app-wild-animals-panel *ngIf=\"pagingService.currentPanel === 'wild-animals'\"></app-wild-animals-panel>-->\n<!--  <app-paginator (itemMoved)=\"switchItem($event)\"></app-paginator>-->\n  <footer class=\"align-bottom container\">\n    <app-footer></app-footer>\n  </footer>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\r\n  <header>\r\n    <app-header></app-header>\r\n  </header>\r\n  <router-outlet></router-outlet>\r\n<!--  <app-birds-panel *ngIf=\"pagingService.currentPanel === 'birds'\"></app-birds-panel>-->\r\n<!--  <app-livestock-panel *ngIf=\"pagingService.currentPanel === 'livestock'\"></app-livestock-panel>-->\r\n<!--  <app-wild-animals-panel *ngIf=\"pagingService.currentPanel === 'wild-animals'\"></app-wild-animals-panel>-->\r\n<!--  <app-paginator (itemMoved)=\"switchItem($event)\"></app-paginator>-->\r\n  <footer class=\"align-bottom container\">\r\n    <app-footer></app-footer>\r\n  </footer>\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/birds-card/birds-card.component.html": 
@@ -39,7 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <h4>{{ birdsService.currentAnimal.name }}</h4>\n  <p>Lifespan: {{ birdsService.currentAnimal.lifespan }}</p>\n  <p>Flight speed: {{ birdsService.currentAnimal.speed }} km/h</p>\n  <p>Weight: {{ birdsService.currentAnimal.weight }}</p>\n  <p>Clutch size: {{ birdsService.currentAnimal.clutchSize }}</p>\n  <p>Distribution: {{ birdsService.currentAnimal.distribution }}</p>\n  <img\n    [src]=\"birdsService.currentAnimal.src\"\n    [alt]=\"birdsService.currentAnimal.name\"\n  />\n</div>\n<div class=\"row justify-content-center\">\n  <app-paginator></app-paginator>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div>\r\n  <h4>{{ birdsService.currentAnimal.name }}</h4>\r\n  <p>Lifespan: {{ birdsService.currentAnimal.lifespan }}</p>\r\n  <p>Flight speed: {{ birdsService.currentAnimal.speed }} km/h</p>\r\n  <p>Weight: {{ birdsService.currentAnimal.weight }}</p>\r\n  <p>Clutch size: {{ birdsService.currentAnimal.clutchSize }}</p>\r\n  <p>Distribution: {{ birdsService.currentAnimal.distribution }}</p>\r\n  <img\r\n    [src]=\"birdsService.currentAnimal.src\"\r\n    [alt]=\"birdsService.currentAnimal.name\"\r\n  />\r\n</div>\r\n<div class=\"row justify-content-center\">\r\n  <app-paginator></app-paginator>\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/livestock-card/livestock-card.component.html": 
@@ -50,7 +50,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <h4>{{ livestockService.currentAnimal.name }}</h4>\n  <p>Lifespan: {{ livestockService.currentAnimal.lifespan }}</p>\n  <p>Gestation period: {{ livestockService.currentAnimal.gestationPeriod }}</p>\n  <p>Weight: {{ livestockService.currentAnimal.weight }}</p>\n  <p>Distribution: {{ livestockService.currentAnimal.distribution }}</p>\n  <img\n    [src]=\"livestockService.currentAnimal.src\"\n    [alt]=\"livestockService.currentAnimal.name\"\n  />\n</div>\n<div class=\"row justify-content-center\">\n  <app-paginator></app-paginator>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div>\r\n  <h4>{{ livestockService.currentAnimal.name }}</h4>\r\n  <p>Lifespan: {{ livestockService.currentAnimal.lifespan }}</p>\r\n  <p>Gestation period: {{ livestockService.currentAnimal.gestationPeriod }}</p>\r\n  <p>Weight: {{ livestockService.currentAnimal.weight }}</p>\r\n  <p>Distribution: {{ livestockService.currentAnimal.distribution }}</p>\r\n  <img\r\n    [src]=\"livestockService.currentAnimal.src\"\r\n    [alt]=\"livestockService.currentAnimal.name\"\r\n  />\r\n</div>\r\n<div class=\"row justify-content-center\">\r\n  <app-paginator></app-paginator>\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/wild-animals-card/wild-animals-card.component.html": 
@@ -61,7 +61,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <h4>{{ wildService.currentAnimal.name }}</h4>\n  <p>Speed: {{ wildService.currentAnimal.speed }}</p>\n  <p>Lifespan: {{ wildService.currentAnimal.lifespan }}</p>\n  <p>Weight: {{ wildService.currentAnimal.weight }}</p>\n  <p>Gestation period: {{ wildService.currentAnimal.gestationPeriod }}</p>\n  <p>Distribution: {{ wildService.currentAnimal.distribution }}</p>\n  <img\n    [src]=\"wildService.currentAnimal.src\"\n    [alt]=\"wildService.currentAnimal.name\"\n  />\n</div>\n<div class=\"row justify-content-center\">\n  <app-paginator></app-paginator>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div>\r\n  <h4>{{ wildService.currentAnimal.name }}</h4>\r\n  <p>Speed: {{ wildService.currentAnimal.speed }}</p>\r\n  <p>Lifespan: {{ wildService.currentAnimal.lifespan }}</p>\r\n  <p>Weight: {{ wildService.currentAnimal.weight }}</p>\r\n  <p>Gestation period: {{ wildService.currentAnimal.gestationPeriod }}</p>\r\n  <p>Distribution: {{ wildService.currentAnimal.distribution }}</p>\r\n  <img\r\n    [src]=\"wildService.currentAnimal.src\"\r\n    [alt]=\"wildService.currentAnimal.name\"\r\n  />\r\n</div>\r\n<div class=\"row justify-content-center\">\r\n  <app-paginator></app-paginator>\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/general/footer/footer.component.html": 
@@ -72,7 +72,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex justify-content-center\">\n  <p>{{ year }}</p>\n  <p>&nbsp;&copy; Copyright by Moshe Gelberg</p>\n</div>\n\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex justify-content-center\">\r\n  <p>{{ year }}</p>\r\n  <p>&nbsp;&copy; Copyright by Moshe Gelberg</p>\r\n</div>\r\n\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/general/header/header.component.html": 
@@ -105,7 +105,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<h2>The page was not found!</h2>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<h2>The page was not found!</h2>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/general/paginator/paginator.component.html": 
@@ -116,7 +116,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex justify-content-center paginator\">\n  <a class=\"arrow\" [routerLink]=\"[path, id === 1 ? currentAnimalsArrayLength : id - 1]\">&#60;</a>\n  <a class=\"arrow\" [routerLink]=\"[path, id === currentAnimalsArrayLength ? 1 : id + 1]\">&#62;</a>\n</div>\n<!--(click)=\"changeItem(-1)\"-->\n<!--(click)=\"changeItem(1)\"-->\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex justify-content-center paginator\">\r\n  <a class=\"arrow\" [routerLink]=\"[path, id === 1 ? currentAnimalsArrayLength : id - 1]\">&#60;</a>\r\n  <a class=\"arrow\" [routerLink]=\"[path, id === currentAnimalsArrayLength ? 1 : id + 1]\">&#62;</a>\r\n</div>\r\n<!--(click)=\"changeItem(-1)\"-->\r\n<!--(click)=\"changeItem(1)\"-->\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/panels/birds-panel/birds-panel.component.html": 
@@ -127,7 +127,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Birds observatory</h2>\n<div class=\"row\">\n  <div class=\"col-md-5\">\n    <h4>The birds list</h4>\n    <ul class=\"list-group\">\n      <li\n        class=\"list-group-item list-group-item-action bird-choice\"\n        *ngFor=\"let bird of birdsService.list\"\n        [routerLink]=\"['/birds', bird.id]\">\n<!--        (click)=\"navigateTo(bird)\"-->\n        <span>{{ bird.name }}</span>\n      </li>\n    </ul>\n  </div>\n  <div class=\"col-md-7\">\n    <router-outlet></router-outlet>\n  </div>\n<!--    <app-birds-card class=\"col-md-7\"></app-birds-card>-->\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Birds observatory</h2>\r\n<div class=\"row\">\r\n  <div class=\"col-md-5\">\r\n    <h4>The birds list</h4>\r\n    <ul class=\"list-group\">\r\n      <li\r\n        class=\"list-group-item list-group-item-action bird-choice\"\r\n        *ngFor=\"let bird of birdsService.list\"\r\n        [routerLink]=\"['/birds', bird.id]\"\r\n        routerLinkActive=\"active active-bg\">\r\n        <!--        (click)=\"navigateTo(bird)\"-->\r\n        <span>{{ bird.name }}</span>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n  <div class=\"col-md-7\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n  <!--    <app-birds-card class=\"col-md-7\"></app-birds-card>-->\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/panels/livestock-panel/livestock-panel.component.html": 
@@ -138,7 +138,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Livestock observatory</h2>\n<div class=\"row\">\n  <div class=\"col-md-5\">\n    <h4>The livestock list</h4>\n    <ul>\n      <li\n        class=\"list-group-item list-group-item-action livestock-choice\"\n        *ngFor=\"let animal of livestockService.list\"\n        [routerLink]=\"['/livestock', animal.id]\">\n        <!--        (click)=\"navigateTo(animal)\"-->\n        <span>{{ animal.name }}</span>\n      </li>\n    </ul>\n  </div>\n  <div class=\"col-md-7\">\n    <router-outlet></router-outlet>\n  </div>\n<!--  <app-livestock-card class=\"col-md-7\"></app-livestock-card>-->\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Livestock observatory</h2>\r\n<div class=\"row\">\r\n  <div class=\"col-md-5\">\r\n    <h4>The livestock list</h4>\r\n    <ul>\r\n      <li\r\n        class=\"list-group-item list-group-item-action livestock-choice\"\r\n        *ngFor=\"let animal of livestockService.list\"\r\n        [routerLink]=\"['/livestock', animal.id]\"\r\n        routerLinkActive=\"active active-bg\">\r\n        <!--        (click)=\"navigateTo(animal)\"-->\r\n        <span>{{ animal.name }}</span>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n  <div class=\"col-md-7\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n<!--  <app-livestock-card class=\"col-md-7\"></app-livestock-card>-->\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/panels/wild-animals-panel/wild-animals-panel.component.html": 
@@ -149,7 +149,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Livestock observatory</h2>\n<div class=\"row\">\n  <div class=\"col-md-5\">\n    <h4>The wild animals list</h4>\n    <ul>\n      <li\n        class=\"list-group-item list-group-item-action wild-choice\"\n        *ngFor=\"let animal of wildService.list\"\n        [routerLink]=\"['/wild', animal.id]\">\n        <!--        (click)=\"navigateTo(animal)\"-->\n        <span>{{ animal.name }}</span>\n      </li>\n    </ul>\n  </div>\n  <div class=\"col-md-7\">\n    <router-outlet></router-outlet>\n  </div>\n  <!--  <app-livestock-card class=\"col-md-7\"></app-livestock-card>-->\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<h2>Welcome to the Livestock observatory</h2>\r\n<div class=\"row\">\r\n  <div class=\"col-md-5\">\r\n    <h4>The wild animals list</h4>\r\n    <ul>\r\n      <li\r\n        class=\"list-group-item list-group-item-action wild-choice\"\r\n        *ngFor=\"let animal of wildService.list\"\r\n        [routerLink]=\"['/wild', animal.id]\"\r\n        routerLinkActive=\"active active-bg\">\r\n        <!--        (click)=\"navigateTo(animal)\"-->\r\n        <span>{{ animal.name }}</span>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n  <div class=\"col-md-7\">\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n  <!--  <app-livestock-card class=\"col-md-7\"></app-livestock-card>-->\r\n</div>\r\n");
             /***/ 
         }),
         /***/ "./node_modules/tslib/tslib.es6.js": 
@@ -473,14 +473,17 @@
             /* harmony import */ var _components_cards_wild_animals_card_wild_animals_card_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/cards/wild-animals-card/wild-animals-card.component */ "./src/app/components/cards/wild-animals-card/wild-animals-card.component.ts");
             var appRoutes = [
                 { path: 'birds', component: _components_panels_birds_panel_birds_panel_component__WEBPACK_IMPORTED_MODULE_3__["BirdsPanelComponent"], children: [
-                        { path: ':id', component: _components_cards_birds_card_birds_card_component__WEBPACK_IMPORTED_MODULE_7__["BirdsCardComponent"] }
+                        { path: ':id', component: _components_cards_birds_card_birds_card_component__WEBPACK_IMPORTED_MODULE_7__["BirdsCardComponent"] },
+                        { path: '', redirectTo: '/birds/1', pathMatch: 'full' }
                     ] },
                 { path: '', redirectTo: 'birds/1', pathMatch: 'full' },
                 { path: 'livestock', component: _components_panels_livestock_panel_livestock_panel_component__WEBPACK_IMPORTED_MODULE_4__["LivestockPanelComponent"], children: [
-                        { path: ':id', component: _components_cards_livestock_card_livestock_card_component__WEBPACK_IMPORTED_MODULE_8__["LivestockCardComponent"] }
+                        { path: ':id', component: _components_cards_livestock_card_livestock_card_component__WEBPACK_IMPORTED_MODULE_8__["LivestockCardComponent"] },
+                        { path: '', redirectTo: '/livestock/1', pathMatch: 'full' }
                     ] },
                 { path: 'wild', component: _components_panels_wild_animals_panel_wild_animals_panel_component__WEBPACK_IMPORTED_MODULE_5__["WildAnimalsPanelComponent"], children: [
-                        { path: ':id', component: _components_cards_wild_animals_card_wild_animals_card_component__WEBPACK_IMPORTED_MODULE_9__["WildAnimalsCardComponent"] }
+                        { path: ':id', component: _components_cards_wild_animals_card_wild_animals_card_component__WEBPACK_IMPORTED_MODULE_9__["WildAnimalsCardComponent"] },
+                        { path: '', redirectTo: '/wild/1', pathMatch: 'full' }
                     ] },
                 { path: 'not-found', component: _components_general_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_6__["PageNotFoundComponent"] },
                 { path: '**', redirectTo: 'not-found' }
@@ -506,7 +509,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("footer {\n  background-color: #17a2b8;\n  padding-top: 20px;\n  color: white;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzE3YTJiODtcbiAgcGFkZGluZy10b3A6IDIwcHg7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = ("footer {\r\n  background-color: #17a2b8;\r\n  padding-top: 20px;\r\n  color: white;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTdhMmI4O1xyXG4gIHBhZGRpbmctdG9wOiAyMHB4O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG4iXX0= */");
             /***/ 
         }),
         /***/ "./src/app/app.component.ts": 
@@ -603,7 +606,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("img {\n  max-width: 95%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy9iaXJkcy1jYXJkL2JpcmRzLWNhcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NhcmRzL2JpcmRzLWNhcmQvYmlyZHMtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgbWF4LXdpZHRoOiA5NSU7XG59XG4iXX0= */");
+            /* harmony default export */ __webpack_exports__["default"] = ("img {\r\n  max-width: 95%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy9iaXJkcy1jYXJkL2JpcmRzLWNhcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NhcmRzL2JpcmRzLWNhcmQvYmlyZHMtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcclxuICBtYXgtd2lkdGg6IDk1JTtcclxufVxyXG4iXX0= */");
             /***/ 
         }),
         /***/ "./src/app/components/cards/birds-card/birds-card.component.ts": 
@@ -667,7 +670,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("img {\n  max-width: 95%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy9saXZlc3RvY2stY2FyZC9saXZlc3RvY2stY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztBQUNoQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZHMvbGl2ZXN0b2NrLWNhcmQvbGl2ZXN0b2NrLWNhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gIG1heC13aWR0aDogOTUlO1xufVxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = ("img {\r\n  max-width: 95%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy9saXZlc3RvY2stY2FyZC9saXZlc3RvY2stY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztBQUNoQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZHMvbGl2ZXN0b2NrLWNhcmQvbGl2ZXN0b2NrLWNhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgbWF4LXdpZHRoOiA5NSU7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/cards/livestock-card/livestock-card.component.ts": 
@@ -731,7 +734,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("img {\n  max-width: 95%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy93aWxkLWFuaW1hbHMtY2FyZC93aWxkLWFuaW1hbHMtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztBQUNoQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZHMvd2lsZC1hbmltYWxzLWNhcmQvd2lsZC1hbmltYWxzLWNhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gIG1heC13aWR0aDogOTUlO1xufVxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = ("img {\r\n  max-width: 95%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXJkcy93aWxkLWFuaW1hbHMtY2FyZC93aWxkLWFuaW1hbHMtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztBQUNoQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2FyZHMvd2lsZC1hbmltYWxzLWNhcmQvd2lsZC1hbmltYWxzLWNhcmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgbWF4LXdpZHRoOiA5NSU7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/cards/wild-animals-card/wild-animals-card.component.ts": 
@@ -834,7 +837,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = (".navbar-brand > img {\n  max-width: 60px;\n}\n\n.greeting {\n  color: white;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2dlbmVyYWwvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1icmFuZCA+IGltZyB7XG4gIG1heC13aWR0aDogNjBweDtcbn1cblxuLmdyZWV0aW5nIHtcbiAgY29sb3I6IHdoaXRlO1xufVxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = (".navbar-brand > img {\r\n  max-width: 60px;\r\n}\r\n\r\n.greeting {\r\n  color: white;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2dlbmVyYWwvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1icmFuZCA+IGltZyB7XHJcbiAgbWF4LXdpZHRoOiA2MHB4O1xyXG59XHJcblxyXG4uZ3JlZXRpbmcge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG4iXX0= */");
             /***/ 
         }),
         /***/ "./src/app/components/general/header/header.component.ts": 
@@ -872,7 +875,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("ul {\n  margin: 0;\n  padding: 0;\n  /*color: white;*/\n}\n\nli {\n  padding: 10px 20px;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.menu {\n  list-style-type: none;\n  font-size: 20px;\n}\n\n.active-link {\n  color: #495057;\n  background-color: #ace9f2;\n  border-color: #dee2e6 #dee2e6 #fff;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL25hdmlnYXRpb24vbmF2aWdhdGlvbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNULFVBQVU7RUFDVixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsWUFBWTtBQUNkOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QseUJBQXlCO0VBQ3pCLGtDQUFrQztBQUNwQyIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZ2VuZXJhbC9uYXZpZ2F0aW9uL25hdmlnYXRpb24uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInVsIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICAvKmNvbG9yOiB3aGl0ZTsqL1xufVxuXG5saSB7XG4gIHBhZGRpbmc6IDEwcHggMjBweDtcbn1cblxuYSB7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4ubWVudSB7XG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuXG4uYWN0aXZlLWxpbmsge1xuICBjb2xvcjogIzQ5NTA1NztcbiAgYmFja2dyb3VuZC1jb2xvcjogI2FjZTlmMjtcbiAgYm9yZGVyLWNvbG9yOiAjZGVlMmU2ICNkZWUyZTYgI2ZmZjtcbn1cbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = ("ul {\r\n  margin: 0;\r\n  padding: 0;\r\n  /*color: white;*/\r\n}\r\n\r\nli {\r\n  padding: 10px 20px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: white;\r\n}\r\n\r\n.menu {\r\n  list-style-type: none;\r\n  font-size: 20px;\r\n}\r\n\r\n.active-link {\r\n  color: #495057;\r\n  background-color: #ace9f2;\r\n  border-color: #dee2e6 #dee2e6 #fff;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL25hdmlnYXRpb24vbmF2aWdhdGlvbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNULFVBQVU7RUFDVixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsWUFBWTtBQUNkOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QseUJBQXlCO0VBQ3pCLGtDQUFrQztBQUNwQyIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZ2VuZXJhbC9uYXZpZ2F0aW9uL25hdmlnYXRpb24uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInVsIHtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZzogMDtcclxuICAvKmNvbG9yOiB3aGl0ZTsqL1xyXG59XHJcblxyXG5saSB7XHJcbiAgcGFkZGluZzogMTBweCAyMHB4O1xyXG59XHJcblxyXG5hIHtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG59XHJcblxyXG4ubWVudSB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxufVxyXG5cclxuLmFjdGl2ZS1saW5rIHtcclxuICBjb2xvcjogIzQ5NTA1NztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjYWNlOWYyO1xyXG4gIGJvcmRlci1jb2xvcjogI2RlZTJlNiAjZGVlMmU2ICNmZmY7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/general/navigation/navigation.component.ts": 
@@ -909,7 +912,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\n  margin-top: 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL3BhZ2Utbm90LWZvdW5kL3BhZ2Utbm90LWZvdW5kLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2dlbmVyYWwvcGFnZS1ub3QtZm91bmQvcGFnZS1ub3QtZm91bmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgyIHtcbiAgbWFyZ2luLXRvcDogMzBweDtcbn1cbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\r\n  margin-top: 30px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL3BhZ2Utbm90LWZvdW5kL3BhZ2Utbm90LWZvdW5kLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2dlbmVyYWwvcGFnZS1ub3QtZm91bmQvcGFnZS1ub3QtZm91bmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgyIHtcclxuICBtYXJnaW4tdG9wOiAzMHB4O1xyXG59XHJcbiJdfQ== */");
             /***/ 
         }),
         /***/ "./src/app/components/general/page-not-found/page-not-found.component.ts": 
@@ -947,7 +950,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = (".arrow {\n  font-size: 80px;\n  font-weight: bold;\n  padding: 0 30px;\n}\n\na {\n  color: #17a2b8;\n  cursor: pointer;\n}\n\na:hover {\n  text-decoration: none;\n  opacity: 0.5;\n}\n\n.paginator {\n  padding-bottom: 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL3BhZ2luYXRvci9wYWdpbmF0b3IuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG9CQUFvQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZ2VuZXJhbC9wYWdpbmF0b3IvcGFnaW5hdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXJyb3cge1xuICBmb250LXNpemU6IDgwcHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBwYWRkaW5nOiAwIDMwcHg7XG59XG5cbmEge1xuICBjb2xvcjogIzE3YTJiODtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG5hOmhvdmVyIHtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBvcGFjaXR5OiAwLjU7XG59XG5cbi5wYWdpbmF0b3Ige1xuICBwYWRkaW5nLWJvdHRvbTogMzBweDtcbn1cbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = (".arrow {\r\n  font-size: 80px;\r\n  font-weight: bold;\r\n  padding: 0 30px;\r\n}\r\n\r\na {\r\n  color: #17a2b8;\r\n  cursor: pointer;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n  opacity: 0.5;\r\n}\r\n\r\n.paginator {\r\n  padding-bottom: 30px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9nZW5lcmFsL3BhZ2luYXRvci9wYWdpbmF0b3IuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG9CQUFvQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZ2VuZXJhbC9wYWdpbmF0b3IvcGFnaW5hdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXJyb3cge1xyXG4gIGZvbnQtc2l6ZTogODBweDtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBwYWRkaW5nOiAwIDMwcHg7XHJcbn1cclxuXHJcbmEge1xyXG4gIGNvbG9yOiAjMTdhMmI4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuYTpob3ZlciB7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIG9wYWNpdHk6IDAuNTtcclxufVxyXG5cclxuLnBhZ2luYXRvciB7XHJcbiAgcGFkZGluZy1ib3R0b206IDMwcHg7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/general/paginator/paginator.component.ts": 
@@ -1031,7 +1034,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\n  margin: 30px 0;\n  text-align: center;\n}\n\n.bird-choice {\n  cursor: pointer;\n}\n\nul {\n  padding-bottom: 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvYmlyZHMtcGFuZWwvYmlyZHMtcGFuZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvYmlyZHMtcGFuZWwvYmlyZHMtcGFuZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgyIHtcbiAgbWFyZ2luOiAzMHB4IDA7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmJpcmQtY2hvaWNlIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG51bCB7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufVxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\r\n  margin: 30px 0;\r\n  text-align: center;\r\n}\r\n\r\n.bird-choice {\r\n  cursor: pointer;\r\n}\r\n\r\nul {\r\n  padding-bottom: 30px;\r\n}\r\n\r\n.active-bg {\r\n  background-color: #17a2b8;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvYmlyZHMtcGFuZWwvYmlyZHMtcGFuZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0UseUJBQXlCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvYmlyZHMtcGFuZWwvYmlyZHMtcGFuZWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgyIHtcclxuICBtYXJnaW46IDMwcHggMDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5iaXJkLWNob2ljZSB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG51bCB7XHJcbiAgcGFkZGluZy1ib3R0b206IDMwcHg7XHJcbn1cclxuXHJcbi5hY3RpdmUtYmcge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxN2EyYjg7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/panels/birds-panel/birds-panel.component.ts": 
@@ -1073,7 +1076,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\n  margin: 30px 0;\n  text-align: center;\n}\n\n.livestock-choice {\n  cursor: pointer;\n}\n\nul {\n  padding-bottom: 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvbGl2ZXN0b2NrLXBhbmVsL2xpdmVzdG9jay1wYW5lbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxvQkFBb0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3BhbmVscy9saXZlc3RvY2stcGFuZWwvbGl2ZXN0b2NrLXBhbmVsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMiB7XG4gIG1hcmdpbjogMzBweCAwO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5saXZlc3RvY2stY2hvaWNlIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG51bCB7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufVxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\r\n  margin: 30px 0;\r\n  text-align: center;\r\n}\r\n\r\n.livestock-choice {\r\n  cursor: pointer;\r\n}\r\n\r\nul {\r\n  padding-bottom: 30px;\r\n}\r\n\r\n.active-bg {\r\n  background-color: #17a2b8;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvbGl2ZXN0b2NrLXBhbmVsL2xpdmVzdG9jay1wYW5lbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0IiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3BhbmVscy9saXZlc3RvY2stcGFuZWwvbGl2ZXN0b2NrLXBhbmVsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMiB7XHJcbiAgbWFyZ2luOiAzMHB4IDA7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4ubGl2ZXN0b2NrLWNob2ljZSB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG51bCB7XHJcbiAgcGFkZGluZy1ib3R0b206IDMwcHg7XHJcbn1cclxuXHJcbi5hY3RpdmUtYmcge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxN2EyYjg7XHJcbn1cclxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/components/panels/livestock-panel/livestock-panel.component.ts": 
@@ -1120,7 +1123,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\n  margin: 30px 0;\n  text-align: center;\n}\n\n.wild-choice {\n  cursor: pointer;\n}\n\nul {\n  padding-bottom: 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvd2lsZC1hbmltYWxzLXBhbmVsL3dpbGQtYW5pbWFscy1wYW5lbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxvQkFBb0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3BhbmVscy93aWxkLWFuaW1hbHMtcGFuZWwvd2lsZC1hbmltYWxzLXBhbmVsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMiB7XG4gIG1hcmdpbjogMzBweCAwO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi53aWxkLWNob2ljZSB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxudWwge1xuICBwYWRkaW5nLWJvdHRvbTogMzBweDtcbn1cbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = ("h2 {\r\n  margin: 30px 0;\r\n  text-align: center;\r\n}\r\n\r\n.wild-choice {\r\n  cursor: pointer;\r\n}\r\n\r\nul {\r\n  padding-bottom: 30px;\r\n}\r\n\r\n.active-bg {\r\n  background-color: #17a2b8;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYW5lbHMvd2lsZC1hbmltYWxzLXBhbmVsL3dpbGQtYW5pbWFscy1wYW5lbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0IiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3BhbmVscy93aWxkLWFuaW1hbHMtcGFuZWwvd2lsZC1hbmltYWxzLXBhbmVsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMiB7XHJcbiAgbWFyZ2luOiAzMHB4IDA7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4ud2lsZC1jaG9pY2Uge1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxudWwge1xyXG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xyXG59XHJcblxyXG4uYWN0aXZlLWJnIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTdhMmI4O1xyXG59XHJcbiJdfQ== */");
             /***/ 
         }),
         /***/ "./src/app/components/panels/wild-animals-panel/wild-animals-panel.component.ts": 
@@ -1322,7 +1325,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! /home/moshe/Dropbox/programming/avratech/avratech-ng-zoo/src/main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! C:\Users\stu.RAVTECH\Documents\moshe\avratech-ng-zoo\src\main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);
